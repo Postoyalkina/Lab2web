@@ -1,0 +1,68 @@
+table, tr, td, th {
+
+	text-align: center;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	border-collapse: collapse;
+	}
+
+table {
+	width: 420px;
+}
+
+th {
+	background-color: lightblue;
+	}
+
+td {
+	padding: 10px;
+	}
+
+#doc {
+	top: 100px;
+	height: 450px;
+	width: 900px;
+	margin: auto;
+	border-style: ridge;
+	border-width: 4px;
+	background: #F0FFFF;
+	position: relative;
+
+}
+
+.tab1 {
+
+	position: relative;
+	float: right;	
+	top: 50px;
+	right: 100px;
+    width: 420px;
+    height: 350px;
+    overflow: auto;
+    border-style: groove;
+	}
+
+#form1 {
+	position: relative;
+	top:50px;
+	left: 100px;
+	float: left;
+}
+
+#newC {
+
+	position: relative;
+}
+
+#chC {
+
+	position: relative;
+	top: 20px;
+}
+
+#buttons {
+
+	position: relative;
+	top: 40px;
+}

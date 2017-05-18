@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Lab2</title>  
+    <link rel="stylesheet" href="Lab2.css">
+    <script type="text/javascript" src="Lab2.js"></script>
+</head>
+
+<body>
+<div id="doc">
+	<div id="form1">
+	<div id="newC">
+		<form id = "newCirclef" action="Lab2.js">
+			<input type="text" name="nCr">
+		</form>
+		<button onclick="data.addCirc()">Add circle</button>
+	</div>
+	<div id="chC">
+		<form id = "changeCirclef" action="Lab2.js">
+		Enter procent<br>
+			<input type="text" name="proc">	
+			<br>
+		Enter index <br>
+			<input type="text" name="index">
+		</form>
+		<button onclick="data.change()">Change circle</button>
+	</div>
+	<div id="buttons">
+		<button onclick="data.refreshTable()">Refresh</button>
+		<button onclick="data.addRandom()">Add random</button>
+		<button onclick="data.clear()">Clear</button>
+	</div>
+	</div>
+	<div class="tab1">
+		<table >
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Radius</th>
+					<th>Circuit</th>
+					<th>Area</th>
+					<th>Operations</th>
+				</tr>
+			</thead>
+			<tbody id="circles"></tbody>
+		</table>
+
+	<script type="text/javascript">data.refreshTable()</script>	
+	</div>
+	</div>
+</body>
+
+</html>
